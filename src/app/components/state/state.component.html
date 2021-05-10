@@ -1,0 +1,10 @@
+<div
+  (click)="onAnimate()"
+  class="card"
+  [@openClose]="state"
+  (@openClose.start)="animationStarted($event)"
+  (@openClose.done)="animationEnded($event)"
+>
+  <ng-container *ngIf="state == 'open'"> More Details </ng-container>
+  <ng-container *ngIf="state == 'closed'"> Open Details </ng-container>
+</div>

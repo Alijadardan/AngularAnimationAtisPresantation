@@ -1,0 +1,13 @@
+
+<input type="text" #input>
+<button (click)="onAdd(input.value)">Add Item!</button>
+
+<ul class="list-group">
+  <li
+    class="list-group-item"
+    (click)="onDelete(item)"
+    [@list2]
+    *ngFor="let item of list">
+    {{ item }}
+  </li>
+</ul>
