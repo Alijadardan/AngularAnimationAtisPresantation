@@ -1,0 +1,15 @@
+<div class="wrap">
+  <div @fadeSlideInOut *ngFor="let article of articleList"
+  (click)="gotoDetail(article)"
+    class="tile " >
+      <img [src]="article.url"/>
+      <div class="text">
+        <h1>{{article.title}}</h1>
+        <h2 class="animate-text"  >{{article.subtitle}}</h2>
+        <p class="animate-text" >{{article.description}}</p>
+        <div class="dots">
+          <span></span> <span></span><span></span>
+      </div>
+      </div>
+  </div>
+</div>

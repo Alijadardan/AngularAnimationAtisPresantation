@@ -1,7 +1,15 @@
-<app-fadein-out></app-fadein-out>
+<!-- <app-fadein-out></app-fadein-out> -->
 <!-- <app-state></app-state> -->
 <!-- <app-list></app-list> -->
 
 
+
+
+<header>
+  <a routerLink="home" routerLinkActive="active">Home</a>
+</header>
+<div [@routeAnimations]="prepareRoute(outlet)">
+  <router-outlet #outlet="outlet"></router-outlet>
+</div>
 
 <!-- https://angular.io/guide/animations#animation-api-summary -->

@@ -7,6 +7,8 @@ import { FadeinOutComponent } from './components/fadein-out/fadein-out.component
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StateComponent } from './components/state/state.component';
 import { ListComponent } from './components/list/list.component';
+import { HomeComponent } from './components/home/home.component';
+import { ArticleComponent } from './components/article/article.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,8 @@ import { ListComponent } from './components/list/list.component';
     FadeinOutComponent,
     StateComponent,
     ListComponent,
+    HomeComponent,
+    ArticleComponent,
   ],
   imports: [
     BrowserModule,

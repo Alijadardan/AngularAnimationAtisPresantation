@@ -1,0 +1,32 @@
+.article-page .banner {
+  padding: 2rem 0;
+}
+.banner {
+  color: #fff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  color:white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container.page {
+  margin-top: 1.5rem;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-page .article-content p {
+  font-family: 'source serif pro',serif;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+}
+.width-100{
+width: 100%
+}
